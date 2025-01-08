@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "kaestlim/trafficlight"
+    registry = "kaestlim-bzz/trafficlight"
     registryCredential = 'dockerhub'
   }
   agent any
